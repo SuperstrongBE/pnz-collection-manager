@@ -5,6 +5,9 @@ const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
   distDir: '.next',
+  experimental: {
+    appDir: true,
+  },
   images: {
     domains: [
       'proton.bloks.io',
